@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soy Un Cacahuate</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="menu">
+                <div id="menuBtn" class="menu__btn"><i class="fa-solid fa-bars"></i></div>
+
+                <div class="menu__modal">
+                    <div id="closeBtn" class="menu__close-btn"><i class="fa-solid fa-xmark"></i></div>
+
+                    <ul class="menu__modal__list">
+                        <li><a class="nav-item" href="#about">Acerca de</a></li>
+                        <li><a class="nav-item" href="#products">Productos</a></li>
+                        <li><a class="nav-item" href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="logo">
+            <img class="logo__img" src="img/logo-no-bg.png" alt="Logo 'soy un cacahuate'">
+            <h1 id="logo__text">Soy un cacahuate</h1>
+        </div>
+        
+        <div class="banner">
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section id="about">
+            <article class="about__text">
+                <h2 class="subtitle">La esencia pura del maní</h2>
+                <p class="text">Bienvenido a <span>Soy un Cacahuate</span>, donde la simplicidad y el sabor se fusionan para
+                    brindarte una
+                    experiencia única con cada bocado. <span>Somos una opción 100% natural, sin conservantes ni
+                        aditivos</span>,
+                    porque creemos que la verdadera esencia del maní se encuentra en su pureza.</p>
+                <p class="text">Nos esforzamos por ofrecer productos que reflejen la autenticidad y el sabor real del maní. Nuestra
+                    mantequilla de maní es <span>la elección perfecta para aquellos que buscan una opción saludable y
+                        deliciosa, sin comprometer la calidad.</span></p>
+            </article>
+
+            <div class="about__img">
+                <div class="grid-img img1"></div>
+                <div class="grid-img img2"></div>
+            </div>
+        </section>
+
+        <div class="h-line"></div>
+
+        <section class="benefits">
+            <h2 class="subtitle">Beneficios Destacados</h2>
+
+            <div class="articles">
+                <article>
+                    <img src="img/cacahuates.jpg" alt="Mantequilla de maní natural">
+                    <h3 class="text">100% Natural</h3>
+                </article>
+
+                <article>
+                    <img src="img/sugar-free.jpg" alt="Mantequilla de maní sin azúcar">
+                    <h3 class="text">Sin azúcar</h3>
+                </article>
+
+                <article>
+                    <img src="img/great-prices.jpg" alt="Persona realizando una compra">
+                    <h3 class="text">Excelentes precios</h3>
+                </article>
+            </div>
+        </section>
+
+        <div class="h-line"></div>
+
+        <section class="products-container">
+            <h2 class="subtitle">Explora nuestros productos</h2>
+
+            <div id="products" class="articles">
+                <article>
+                    <img src="img/cookies.jpg" alt="Mantequilla de maní sin azúcar">
+                    <h3 class="text">Nutty Cookies</h3>
+                    <span class="price text">$80</span>
+                    <a class="btn--buy" href="#">Comprar</a>
+                </article>
+                
+                <article>
+                    <img src="img/brownies.jpg" alt="Persona realizando una compra">
+                    <h3 class="text">Brownies</h3>
+                    <span class="price text">$150</span>
+                    <a class="btn--buy" href="#">Comprar</a>
+                </article>
+                
+                <article>
+                    <img src="img/frasco-mantequilla.jpg" alt="Mantequilla de maní natural">
+                    <h3 class="text">Mantequilla de maní</h3>
+                    <span class="price text">$420</span>
+                    <a class="btn--buy" href="#">Comprar</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2 class="subtitle">Contacto</h2>
+
+        <article id="contact">
+            <div class="contact__banner">
+                <img src="img/logo-no-bg.png" alt="Logo 'Soy un cacahuate'">
+            </div>
+
+            <div class="contact__info">
+                <div class="contact__info__item">
+                    <h4 class="text">Dirección</h4>
+                    <span class="text">Tacuarembó, Tacuarembó Uruguay</span>
+                </div>
+
+                <div class="contact__info__item">
+                    <h4 class="text">Whatsapp</h4>
+                    <span class="text">(123) 456-7890</span>
+                </div>
+
+                <div class="contact__info__item">
+                    <h4 class="text">Redes Sociales</h4>
+
+                    <div class="icons">
+                        <span><a href="#"><i class="fa-brands fa-facebook"></i></a></span>
+                        <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <div class="attribution">Desarrollado por &copy; <a target="_blank" href="https://github.com/Dev-Gus">Dev Gus</a>. </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/ce6d39513c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

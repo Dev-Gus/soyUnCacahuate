@@ -1,0 +1,23 @@
+@use 'variables' as v;
+
+.header {
+    background-color: v.$brown;
+    color: v.$yellow;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__img {
+        width: 30%;
+        margin-top: .5rem;
+    }
+}
+
+#logo__text {
+    margin: .5rem 0;
+    font-size: 7vw;
+    font-weight: 400;
+}
